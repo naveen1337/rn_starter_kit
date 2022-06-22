@@ -1,0 +1,47 @@
+{
+  "styleBlock": {
+    "scope": "typescriptreact",
+    "prefix": "makestyle",
+    "body": [" style={[$1]}"],
+    "description": "tailwind Style Basic Block"
+  },
+  "tailwindStyleBlock": {
+    "scope": "typescriptreact",
+    "prefix": "twstyle",
+    "body": [" style={[tw('$1')$2]}"],
+    "description": "tailwind Style Basic Block"
+  },
+  "LocalImage": {
+    "scope": "typescriptreact",
+    "prefix": "rnimage",
+    "body": ["<Image resizeMode=\"contain\" source={assets.${1}} style={[]}/>"],
+    "description": "Basic Local Image"
+  },
+  "BasicView": {
+    "scope": "typescriptreact",
+    "prefix": "rnview",
+    "body": ["<View style={[]}>", "   ", "</View>"],
+    "description": "Basic Local Image"
+  },
+  "BasicText": {
+    "scope": "typescriptreact",
+    "prefix": "rntext",
+    "body": ["<Text style={[]}>${1}</Text>"],
+    "description": "Basic Text"
+  },
+  "JS Function": {
+    "prefix": "jsfun",
+    "body": ["const ${1} = async () =>{", "  ${2}", "}"],
+    "description": "JS Function"
+  },
+  "UserNav Hook": {
+    "prefix": "use_nav",
+    "body": ["const navigation = useNavigation()"],
+    "description": "Redux Use Navigation"
+  },
+  "React native stylesheet": {
+    "prefix": "rnstyles",
+    "body": ["const ss = StyleSheet.create({", "  root:{}", "});"],
+    "description": "React native stylesheet"
+  }
+}

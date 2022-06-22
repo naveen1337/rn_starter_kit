@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@components": "./src/shared/components",
+          "@icons": "./src/assets/icons.manifest",
+          "@images": "./src/assets/image.manifest",
+          "@state": "./src/store/",
+          "@hooks": "./src/shared/hooks/",
+          "@styles": "./src/shared/styles",
+          "@colors": "./src/constants/constants.colors"
+        }
+      }
+    ]
+  ]
+}
