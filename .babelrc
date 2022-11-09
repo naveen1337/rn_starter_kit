@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@components": "./src/shared/components",
+          "@icons": "./src/assets/icons-manifest",
+          "@imgs": "./src/assets/imgs-manifest",
+          "@state": "./src/store/",
+          "@hooks": "./src/shared/hooks/",
+          "@colors": "./src/constants/constants-colors",
+          "@styles": "./src/constants/constants-styles",
+          "@remote": "./src/remote/",
+          "@utils": "./src/shared/utils"
+        }
+      }
+    ]
+  ]
+}
